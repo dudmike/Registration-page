@@ -1,0 +1,45 @@
+.inputLarge {
+  padding-left: 10px;
+}
+
+.inputSmall > input {
+  width: 130px;
+}
+.button {
+  margin-left: 10px;
+}
+.redsign > div {
+  text-align: center;
+  width: 20px;
+}
+.inputSmall {
+  padding-left: 10px;
+}
+
+.left {
+  color: grey;
+  text-align:right;
+}
+.inputLarge > input {
+  width: 220pt;
+  font-size:20px;
+}
+
+td:nth-child(3) {
+  width: 1000px;
+  height: 40px;
+}
+.redtext {
+  color: red;
+  margin-left: 5px;
+  visibility: hidden;
+}
+.redsign{
+  color: red;
+  visibility: hidden;
+}
+
+.checked {
+  color: green;
+  visibility: hidden;
+}

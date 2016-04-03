@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	    <script src="script.js" async></script>
+	    <link rel="stylesheet" type="text/css" href="styles.css">
+  	</head>
+
+	<body>
+	  	<h2>Регистрация:</h2>
+	  	
+		<form method="post" action="registration.php">
+			
+		  	<table>
+				<tr>
+				  <td align="right" class="left">
+					Никнейм:
+				  </td>
+				  <td class='redsign' ><div id="nicksign">!</div></td>
+				  <td class="inputLarge">
+					<input type='text' name="nickname" id="nickname">
+					<span class="redtext" id="nicktext">Человек с таким никнеймом уже зарегистрирован</span>
+				  </td>
+
+				</tr>
+
+				<tr>
+				  <td align="right" class="left">
+					Имя:
+				  </td>
+				  <td class='redsign' ><div id='usersign'>!</div></td>
+				  <td class="inputLarge">
+					<input type='text' name="username" id="username">
+					<span class="redtext" id="usertext">Допустимы только русские буквы</span>
+				  </td>
+
+				</tr>
+
+				<tr>
+				  <td align="right" class="left">
+					Фамилия: 
+				  </td>
+				  <td class='redsign'><div id='userssign'>!</div></td>
+				  <td class="inputLarge">
+					<input type='text' name="usersecondname" id="usersecondname">
+					<span align="left" class="redtext" id="userstext">Допустимы только русские буквы</span>
+				  </td>
+
+				</tr>
+
+				<tr>
+				  <td align="right" class="left">
+					Электронная почта:
+				  </td>
+				  <td class="redsign" ><div id="emailsign">!</div></td>
+				  <td class='inputSmall'>
+					<input type='text' name="email"  id="email">
+					<span class="redtext" id="emailtext">На этот ящик уже зарегистрирован аккаунт</span>
+				  </td>
+				</tr>
+
+				<tr>
+				  <td align="right" class="left">
+					Пароль:
+				  </td >
+				  <td class="redsign"><div id="passwordsign">!</div></td>
+				  <td class='inputSmall'>
+					<input type='password' name="password"  id="password">
+					<span class="redtext" id="passwordtext">Пожалуйста, выдумайте пароль длиннее 5 символов</span>
+				  </td>
+
+				</tr>
+
+				<tr>
+				  <td>
+				  </td>
+
+				  <td></td>
+				  <td>
+						<input type="submit" name="submit" value="Готово" class="button" id="button" disabled>
+				  </td>
+				</tr>
+		  	</table>   
+		</form>
+	</body>
+</html>
